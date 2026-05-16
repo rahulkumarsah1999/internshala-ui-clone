@@ -38,11 +38,10 @@ lib/
 
 > Add screenshots here after uploading them to your repo.
 
-```md
+md
 ![Home](screenshots/home.png)
 
 ![Trending](screenshots/trending.png)
-```
 
 ## 🚀 Getting Started
 
