@@ -39,8 +39,9 @@ lib/
 > Add screenshots here after uploading them to your repo.
 
 ```md
-![Home Screen](screenshots/home.png)
-![Home Screen](screenshots/home.png)
+![Home](screenshots/home.png)
+
+![Trending](screenshots/trending.png)
 ```
 
 ## 🚀 Getting Started
