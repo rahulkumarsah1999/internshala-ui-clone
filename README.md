@@ -36,7 +36,6 @@ lib/
 
 ## 📸 Screenshots
 
-> Add screenshots here after uploading them to your repo.
 
 md
 ![Home](screenshots/home.png)
