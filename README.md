@@ -37,7 +37,6 @@ lib/
 ## 📸 Screenshots
 
 
-md
 ![Home](screenshots/home.png)
 
 ![Trending](screenshots/trending.png)
