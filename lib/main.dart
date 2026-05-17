@@ -1,6 +1,8 @@
 import 'package:assignment1/screens/homescreen.dart';
 import 'package:flutter/material.dart';
 
+import 'screens/login_screen.dart';
+
 void main() {
   runApp(const CardConnect());
 }
@@ -12,8 +14,7 @@ class CardConnect extends StatelessWidget {
     return MaterialApp(
       title: "CardConnect",
       debugShowCheckedModeBanner: false,
-
-      home: Homescreen(),
+      home: LoginPage(),
     );
   }
 }
