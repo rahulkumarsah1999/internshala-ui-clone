@@ -36,7 +36,7 @@ lib/
 
 ## 📸 Screenshots
 
-
+![LoginPage](screenshots/LoginPage.png)
 ![Home](screenshots/home.png)
 
 ![Trending](screenshots/trending.png)
