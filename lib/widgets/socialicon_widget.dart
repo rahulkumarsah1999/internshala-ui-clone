@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
       onTap: (){},
       child: Container(
         height: 60,
-        width: 200,
+        width: double.infinity,
         decoration: BoxDecoration(
           shape: BoxShape.rectangle,
           color: Colors.white30,
@@ -16,9 +16,8 @@ import 'package:flutter/material.dart';
 
                 color: Colors.blueGrey.withValues(alpha: 0.8)),
           boxShadow: [BoxShadow(
-            color: Colors.cyan.withValues(alpha: 0.4),
-            blurRadius: 12,
-            spreadRadius: 1,
+            color: Colors.white,
+            blurRadius: 0,
           )]
         ),
         child: Center(

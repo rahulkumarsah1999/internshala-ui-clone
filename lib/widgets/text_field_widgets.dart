@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 class CustomTextField extends StatefulWidget {
   final String lableText;
-  final String hint;
   final IconData icon;
   final bool obscureText;
   final String? errorText;
@@ -11,7 +10,6 @@ class CustomTextField extends StatefulWidget {
   const CustomTextField({
     super.key,
     required this.lableText,
-    required this.hint,
     required this.icon,
     this.controller,
     this.errorText,
@@ -75,15 +73,16 @@ class _CustomTextFieldState extends State<CustomTextField> {
                   : [],
             ),
             child: TextField(
+              cursorHeight: 15,
+              cursorRadius: Radius.circular(10),
               controller: widget.controller,
               focusNode: _focusNode,
               obscureText: isHidden,
               keyboardType: widget.keyboardType,
-              cursorColor: Colors.cyan,
+              cursorColor: Colors.black,
               decoration: InputDecoration(
                 label: Text(widget.lableText,),
                 labelStyle: TextStyle(color: isFocused ? Colors.cyan : Colors.black, fontSize: 20),
-                hint: Text(widget.hint),
                 visualDensity: VisualDensity.adaptivePlatformDensity,
                 suffixIcon: widget.obscureText
                     ? IconButton(
@@ -110,9 +109,10 @@ class _CustomTextFieldState extends State<CustomTextField> {
                 ),
                 border: InputBorder.none,
                 contentPadding: EdgeInsets.symmetric(
-                  horizontal: 20,
-                  vertical: 18,
+                  horizontal: 30,
+                  vertical: 15,
                 ),
+
               ),
             ),
           ),

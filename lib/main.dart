@@ -2,6 +2,7 @@ import 'package:assignment1/screens/homescreen.dart';
 import 'package:flutter/material.dart';
 
 import 'screens/login_screen.dart';
+import 'widgets/background.dart';
 
 void main() {
   runApp(const CardConnect());

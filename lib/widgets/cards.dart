@@ -26,7 +26,7 @@ class Cards extends StatelessWidget {
 
     return Container(
       width: screenwidth*0.7,
-      height: screenheight*0.22,
+      // height: screenheight*0.22,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(15)),
 gradient: LinearGradient(
